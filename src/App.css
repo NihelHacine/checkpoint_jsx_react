@@ -1,0 +1,65 @@
+
+.couverture{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.couverture .img1{
+width: 100%;
+min-height: 350px;
+max-height: 350px;
+position: relative;
+}
+.couverture .img2{
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  top: 250px;
+  left:100px;
+
+}
+.desc{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.desc .box1{
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+}
+.desc .box1 h1{
+  margin-left: 60px;
+  color: brown;
+}
+.desc button{
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: brown;
+  color: white;
+}
+.desc button:hover{
+  background-color: rgb(212, 83, 83);
+}
+.desc .amis{
+  display: flex;
+  margin-top: 20px;
+}
+.amis img{
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+}
+.nav{
+  width: 90%;
+  margin: auto;
+}
